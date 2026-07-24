@@ -5,6 +5,7 @@
       aspects.bitwardenDesktop
       aspects.ghostty
       aspects.desktopTools
+      aspects.fabiPrograms
       aspects.firefox
       aspects.fonts
       aspects.ghostty
