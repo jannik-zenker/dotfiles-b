@@ -120,8 +120,6 @@
             Mod+T       { toggle-window-floating; }
             Mod+Shift+T { switch-focus-between-floating-and-tiling; }
 
-            Mod+W { toggle-column-tabbed-display; }
-
             Print { screenshot; }
             Ctrl+Print { screenshot-screen; }
             Alt+Print { screenshot-window; }
