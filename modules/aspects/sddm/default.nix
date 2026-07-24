@@ -9,21 +9,24 @@
 
   den.aspects.sddm = {
     nixos = { pkgs, ... }: {
-      services.displayManager.sddm = {
-        enable = true;
-        theme = "pixie";
-        wayland.enable = false;
+      services = {
+        xserver.enable = true;
+        displayManager.sddm = {
+          enable = true;
+          theme = "pixie";
+          wayland.enable = false;
 
-        # Crucial for Qt6: Use the KDE/Qt6 build of SDDM to fix missing
-        # cursors and module errors.
-        package = pkgs.kdePackages.sddm;
+          # Crucial for Qt6: Use the KDE/Qt6 build of SDDM to fix missing
+          # cursors and module errors.
+          package = pkgs.kdePackages.sddm;
 
-        # Required dependencies for Qt6 themes
-        extraPackages = [
-          pkgs.kdePackages.qtsvg
-          pkgs.kdePackages.qtdeclarative
-          pkgs.kdePackages.qt5compat
-        ];
+          # Required dependencies for Qt6 themes
+          extraPackages = [
+            pkgs.kdePackages.qtsvg
+            pkgs.kdePackages.qtdeclarative
+            pkgs.kdePackages.qt5compat
+          ];
+        };
       };
 
       environment.systemPackages = [
