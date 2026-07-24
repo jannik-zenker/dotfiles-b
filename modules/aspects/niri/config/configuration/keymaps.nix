@@ -23,10 +23,6 @@
             Mod+Ctrl+Down  { move-window-down; }
             Mod+Ctrl+Up    { move-window-up; }
             Mod+Ctrl+Right { move-column-right; }
-            Mod+Ctrl+H     { move-column-left; }
-            Mod+Ctrl+J     { move-window-down; }
-            Mod+Ctrl+K     { move-window-up; }
-            Mod+Ctrl+L     { move-column-right; }
 
             Mod+Home { focus-column-first; }
             Mod+End  { focus-column-last; }
@@ -107,7 +103,6 @@
             Mod+Ctrl+Shift+R { switch-preset-window-height; }
             Mod+Ctrl+R { reset-window-height; }
 
-            Mod+Shift+F { maximize-column; }
             Mod+F { fullscreen-window; }
 
             Mod+M { maximize-window-to-edges; }

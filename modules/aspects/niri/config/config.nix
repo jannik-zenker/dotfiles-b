@@ -12,7 +12,6 @@
         include "./configuration/keymaps.kdl"
         include "./configuration/layout.kdl"
         include "./configuration/misc.kdl"
-        include "./configuration/monitors.kdl"
         include "./configuration/windowrules.kdl"
         include "./configuration/workspaces.kdl"
       '';
