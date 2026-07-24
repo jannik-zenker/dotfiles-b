@@ -2,15 +2,15 @@
 {
   den.hosts.x86_64-linux.kek = {
     bootloader = "grub";
-    gpu = "amd";
+    gpu = "intel";
     profile = "laptop";
 
     users.fabian = {
       defaultBrowser = "firefox";
       defaultFileManager = "nemo";
       defaultTerminal = "ghostty";
-      gitName = "";
-      gitMail = "";
+      gitName = "Fab1anBecker";
+      gitMail = "fabianvbecker@gmail.com";
     };
   };
 }
