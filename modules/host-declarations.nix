@@ -13,4 +13,18 @@
       gitMail = "fabianvbecker@gmail.com";
     };
   };
+
+  den.hosts.x86_64-linux.teppich = {
+    bootloader = "grub";
+    gpu = "intel";
+    profile = "laptop";
+
+    users.alibaba = {
+      defaultBrowser = "firefox";
+      defaultFileManager = "nemo";
+      defaultTerminal = "ghostty";
+      gitName = "albezin";
+      gitMail = "";
+    };
+  };
 }
