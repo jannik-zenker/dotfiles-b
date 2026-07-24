@@ -53,7 +53,7 @@
             --yes-wipe-all-disks \
             --flake "github:jannik-zenker/dotfiles-b#''${SELECTION}"
 
-        nixos-install --flake "github:jannik-zenker/dotfiles#''${SELECTION}"
+        nixos-install --flake "github:jannik-zenker/dotfiles-b#''${SELECTION}"
       '';
     };
   };
