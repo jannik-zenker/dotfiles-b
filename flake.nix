@@ -23,6 +23,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     import-tree.url = "github:vic/import-tree";
+    jannik-flake = {
+      url = "github:jannik-zenker/dotfiles";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     mac-style-plymouth = {
       url = "github:SergioRibera/s4rchiso-plymouth-theme";
       inputs.nixpkgs.follows = "nixpkgs";

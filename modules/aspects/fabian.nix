@@ -12,6 +12,7 @@
       aspects.gtk
       aspects.modernCli
       aspects.nemo
+      aspects.neovim
       aspects.niri
       aspects.noctalia
       aspects.starship
